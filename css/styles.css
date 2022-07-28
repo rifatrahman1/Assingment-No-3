@@ -16,16 +16,27 @@
 /* Mobail Device */
 @media only screen and (max-width: 688px) {
     .course {
-        background-color: red;
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+    }
+
+    .course img {
+        width: 500px;
     }
 
     .company {
         display: none;
     }
 
-    .text-center {
+    .text-cent {
         display: none;
+    }
+
+    .navber {
+        display: none;
+    }
+
+    .position-absolute {
+        font-size: 10px;
     }
 }

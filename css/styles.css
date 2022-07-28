@@ -1,0 +1,21 @@
+.container img {
+    filter: brightness(50%);
+}
+
+.container-text {
+    background-color: #1B98F5;
+}
+
+.text {
+    color: #5DA3FA;
+    width: 150px;
+    border-color: #5DA3FA;
+}
+
+/* Media Quaries */
+/* Mobail Device */
+@media only screen and (max-width: 688px) {
+    body {
+        width: 100%;
+    }
+}

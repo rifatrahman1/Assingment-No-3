@@ -40,3 +40,38 @@
         font-size: 10px;
     }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navber {
+        display: none;
+    }
+
+    .company {
+        display: none;
+    }
+
+    .d-none {
+        font-size: 10px;
+    }
+
+    .course img {
+        width: 500px;
+    }
+
+    .Ready-Join {
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .Register {
+        padding-top: 20px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .images {
+        display: none;
+    }
+}

@@ -15,7 +15,17 @@
 /* Media Quaries */
 /* Mobail Device */
 @media only screen and (max-width: 688px) {
-    body {
+    .course {
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
         width: 100%;
+    }
+
+    .company {
+        display: none;
+    }
+
+    .text-center {
+        display: none;
     }
 }
